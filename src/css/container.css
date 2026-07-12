@@ -7,7 +7,7 @@
 }
 
 #container-inner {
-  @apply bg-mistic/80;
+  /*@apply bg-mistic/80;*/
   @apply relative w-full flex flex-col;
 
   @variant lg {
@@ -16,7 +16,7 @@
      */
     @apply w-[640px];
     @apply ml-auto mr-[60px];
-    @apply border-x-1 border-x-primary-d;
+    /*@apply border-x-1 border-x-primary-d;*/
   }
 
   @variant xl {
@@ -53,10 +53,10 @@
 
 #content-inner {
   #main {
-    @apply bg-white;
+    /*@apply bg-white;*/
   }
 
   #box2 {
-    @apply bg-mistic;
+    /*@apply bg-mistic;*/
   }
 }
